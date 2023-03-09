@@ -1,0 +1,86 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: rgb(198, 27, 27);
+    color:white;
+}
+#tudo{
+    margin: 0 auto;
+    width: 700px;
+}
+#topo{
+    background-color: white;
+    color: red;
+    text-align: center;
+    overflow: auto;
+}
+
+#imagemTopo{
+    float: left;
+    width: 164px;
+  
+}
+#titulo{
+    padding-top: 40px;
+    float: right;
+    height: 146px;
+    width: 536px;
+    background-color: white;
+   
+
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 175px;
+    text-align: center;
+
+}
+a{
+    color: white;
+    font-size: 18px;
+
+}
+#texto{
+    float: left;
+    width: 300px;
+}
+#imagemConteudo{
+    float: right;
+    width: 400px;
+}
+#conteudo{
+   margin-top: 100px;
+}
+table {
+    width: 100%;  
+    border-collapse: collapse;     
+
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;   
+}
+
+th {
+    background-color: tomato;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(197, 177, 126);    /* color fila por medio*/
+}
+
+
+
+
+
+tr:hover {
+    background-color: rgb(86, 82, 82);   /*color gris fuerte al pasar cursor*/
+    cursor: pointer;                     /*cursor manito*/
+}

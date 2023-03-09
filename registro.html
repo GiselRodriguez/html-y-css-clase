@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   
+   <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    <div id="tudo">
+      <div id="topo">
+       <div id="imagemTopo">
+             <img src="img/tomate.png" width="164"/>
+        </div>
+        <div id="titulo">
+            <h1>Portal do Tomate</h1>
+        </div>
+    </div>
+   <div id="menu">
+       <ul>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="nutricao.html">Informação nutricionais</a></li>
+           <li><a href="#">Imagens</a></li>
+           <li><a href="registro.html">Registre-se</a></li>
+       </ul>
+    </div>
+    <div id="conteudo">
+        <h2>Registro</h2>
+        <form>
+            Nome:<input type="text" name="nome" />
+            <br>
+            Email:<input type="text" name="email" /> 
+            <br>
+            Senha:
+            <input type="password" name="senha" />
+            <br>
+            Gênero:
+            <input type="radio" name="genero" value="m"/>Masculino
+            <input type="radio" name="genero" value="f"/>Femenino
+            <br>
+            Cidade:
+            <select name="cidade">
+                <option value="">-- Selecione --</option>
+                <option value="riv">Rivera</option>
+                <option value="liv">Livramento</option>
+             </select>
+             <br>
+             Concordo com os Termos de Uso do site:
+             <input type="checkbox" name="termos"/>Sim
+             <br>
+             <input type="submit" name="botao"  value="Enviar"/>
+        </form>
+       
+    </div>
+</div>
+
+</body>
+</html>
